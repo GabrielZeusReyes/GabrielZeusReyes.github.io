@@ -7,6 +7,7 @@ $(document).ready(function(){
 
     //FADE IN THE CONTENTS OF HEADER SECTION
 	$("#header .element").animate({'opacity': '1'},700);
+	$("#navcont .element").animate({'opacity': '1'},700);
 
 	if ($("#navcont").css('display') === "block" && $("#navcontmobile").css('display') === "none"){
 			if (wscroll > 20){
@@ -23,11 +24,6 @@ $(document).ready(function(){
 
 	$(window).scroll(function (){ 
 		wscroll = $(window).scrollTop();
-		if (wscroll > 0) {
-			$("#navcont").addClass("fixed");
-		}
-
-		$("#header").css("background-position", "0px -"+wscroll/2+"px");
 
 		if ($("#navcont").css('display') === "block" && $("#navcontmobile").css('display') === "none"){
 			if (wscroll > 20){

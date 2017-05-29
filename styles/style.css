@@ -46,7 +46,7 @@
 }
 .vertcent {
 	position:relative;
-	top: 45%;
+	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -92,6 +92,8 @@ hr {
 	margin:20px auto;
 }
 #navcont {
+	position: fixed;
+	top:0;
 	width: 100%;
     padding-top:40px;
     padding-bottom:10px;
@@ -101,10 +103,6 @@ hr {
 	-ms-transition: background-color 0.2s ease-in, padding-top 0.2s ease-in;
 	-o-transition: background-color 0.2s ease-in, padding-top 0.2s ease-in;
 	transition: background-color 0.2s ease-in, padding-top 0.2s ease-in; 
-}
-#navcont.fixed {
-	position: fixed;
-	top:0;
 }
 #navcont.scroll {
 	padding-top:20px;
@@ -119,9 +117,6 @@ hr {
 }
 #navcont .cont .logo a {
 	font-family: 'amarilloregular';
-}
-#navwrapper {
-	height: 80px;
 }
 #navcont.mobilev {
     -moz-transition: none;
