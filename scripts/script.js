@@ -101,6 +101,7 @@ $(document).ready(function(){
 				scrollTop:  ($(idval).offset().top)
 			},700);
 		}
+		return false;
 	})
 
 	//MENU MOBILE
