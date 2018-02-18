@@ -76,7 +76,6 @@ $(document).ready(function(){
 
 	//NAV SMOOTH SCROLLING
 	$("ul.clearfix li a").click(function (){
-		return false;
 		var idval = $(this).attr("href");
 		if ($("#navcont").css('display') === "block" && $("#navcontmobile").css('display') === "none"){
 			$("html, body").animate({
@@ -88,6 +87,7 @@ $(document).ready(function(){
 				scrollTop:  ($(idval).offset().top)
 			},700);
 		}
+		return false;
 	})
 	$("#navcont .cont .logo a").click(function (){
 		var idval = $(this).attr("href");
