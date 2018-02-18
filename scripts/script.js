@@ -170,8 +170,6 @@ $(document).ready(function(){
 		//FOR CAROUSEL NAVIGATION
 		curr = $(".carcont.view").index();
 		next  = curr+1
-		console.log("Current: "+curr);
-		console.log("Next: "+next);
 		if(next === 3){
 			$(".carnav .caro.on").removeClass("on");
 			$(".carnav .caro:first-child").addClass("on");
