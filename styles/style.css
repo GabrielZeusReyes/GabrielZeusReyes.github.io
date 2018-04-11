@@ -409,7 +409,7 @@ hr {
 	background-color:#ffffff;
 	margin:10px auto 0 auto;	
 }
-#htmlskills, #cssskills, #jsskills, #jqskills, #btskills, #phpskills, #etskills, #eloskills, #epskills, #apskills {
+#htmlskills, #cssskills, #sassskills, #lessskills, #jsskills, #jqskills, #angularskills, #btskills, #phpskills, #etskills, #eloskills, #epskills, #apskills {
 	height: 20px;
 	background-color: #f77f46;
 }
@@ -419,11 +419,20 @@ hr {
 #cssskills.ani {
 	animation: cssk 1.5s forwards;
 }
+#sassskills.ani {
+	animation: sassk 1.5s forwards;
+}
+#lessskills.ani {
+	animation: lessk 1.5s forwards;
+}
 #jsskills.ani {
 	animation: jsk 1.5s forwards;
 }
 #jqskills.ani {
 	animation: jqk 1.5s forwards;
+}
+#angularskills.ani {
+	animation: angulark 1.5s forwards;
 }
 #btskills.ani {
 	animation: btk 1.5s forwards;
@@ -459,6 +468,22 @@ hr {
 		width: 75%;
 	}
 }
+@keyframes sassk {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 65%;
+	}
+}
+@keyframes lessk {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 80%;
+	}
+}
 @keyframes jsk {
 	0% {
 		width: 0;
@@ -473,6 +498,14 @@ hr {
 	}
 	100% {
 		width: 65%;
+	}
+}
+@keyframes angulark {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 40%;
 	}
 }
 @keyframes btk {
